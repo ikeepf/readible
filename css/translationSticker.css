@@ -1,0 +1,90 @@
+.translation-sticker {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background: #f9f5e8;
+  z-index: 99999;
+  border-radius: 5px; }
+  .translation-sticker.hide {
+    left: -9999px !important;
+    opacity: 0;
+    -webkit-transition: opacity .15s ease;
+    -moz-transition: opacity .15s ease;
+    -ms-transition: opacity .15s ease;
+    -o-transition: opacity .15s ease;
+    transition: opacity .15s ease; }
+  .translation-sticker.show {
+    opacity: 1;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease; }
+  .translation-sticker .panel {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    border: 2px solid #209e85;
+    border-radius: 5px;
+    font-size: 13px; }
+    .translation-sticker .panel p {
+      padding: 0 2px;
+      margin-bottom: 5px; }
+    .translation-sticker .panel span, .translation-sticker .panel i {
+      display: inline-block;
+      vertical-align: middle; }
+    .translation-sticker .panel .selected-text {
+      padding-bottom: 2px;
+      border-bottom: 1px dotted #d5d5d5;
+      font-weight: bold; }
+    .translation-sticker .panel .btn-audio-play {
+      position: relative;
+      margin-left: 5px;
+      height: 14px;
+      width: 14px;
+      background: #999;
+      cursor: pointer;
+      border-radius: 15px; }
+      .translation-sticker .panel .btn-audio-play:after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -4px;
+        margin-left: -2px;
+        height: 0;
+        width: 0;
+        border-width: 4px;
+        border-style: solid;
+        border-color: transparent transparent transparent #f9f5e8; }
+      .translation-sticker .panel .btn-audio-play:hover {
+        background: #209e85; }
+  .translation-sticker .panel-bd {
+    overflow: hidden;
+    overflow-y: auto; }
+  .translation-sticker .btn-close {
+    position: absolute;
+    right: -20px;
+    top: -24px;
+    padding-left: 8px;
+    height: 40px;
+    width: 32px;
+    background: #f9f5e8;
+    border: 1px solid #209e85;
+    color: #209e85;
+    line-height: 58px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-decoration: none; }
+    .translation-sticker .btn-close:after {
+      content: '\00D7'; }
+    .translation-sticker .btn-close:hover {
+      background: #209e85;
+      color: #FFF; }
+  .text-high-light {
+    background: #209e85 !important;
+    color: #FFF !important; }
+
+/*# sourceMappingURL=translationSticker.css.map */
