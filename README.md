@@ -1,0 +1,2 @@
+#readable
+readable是一个针对指定网站中的文章进行内容过滤、划词翻译的Chrome插件。
